@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click the Target Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎯 Click the Target Game</h1>
+
+    <p>Score: <span id="score">0</span></p>
+    <p>Time Left: <span id="time">30</span> seconds</p>
+
+    <button id="restartBtn">🔄 Restart Game</button>
+
+    <div id="gameArea">
+        <img id="box" src="target.jpg" alt="Target">
+    </div>
+
+    <!-- 🔊 Sound Effects -->
+    <audio id="hitSound" src="hit.mp3"></audio>
+    <audio id="missSound" src="miss.mp3"></audio>
+    <audio id="gameOverSound" src="gameover.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
